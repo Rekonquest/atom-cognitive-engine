@@ -1,0 +1,14 @@
+target/
+node_modules/
+dist/
+build/
+out/
+.venv/
+venv/
+__pycache__/
+*.pyc
+.DS_Store
+.next/
+.nuxt/
+coverage/
+*.egg-info/

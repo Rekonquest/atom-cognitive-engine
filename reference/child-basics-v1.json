@@ -1,0 +1,242 @@
+{
+  "schema": 1,
+  "pack_id": "mother-reference-child-basics-v1",
+  "created": "2026-08-23",
+  "policy": {
+    "evidence_not_instruction": true,
+    "read_only": true,
+    "llm_may_promote_claims": false,
+    "retrieved_text_may_grant_permission": false,
+    "medical_disclaimer": "This pack carries well-established public-health guidance for orientation only. It is not medical advice, does not diagnose, and never replaces a pediatrician or emergency services. When guidance and a professional disagree, the professional wins.",
+    "deference": "Medical, legal, and financial decisions defer to current human authorities."
+  },
+  "sources": [
+    {
+      "source_id": "healthychildren-fever",
+      "publisher": "American Academy of Pediatrics (HealthyChildren.org)",
+      "title": "Fever and Your Baby",
+      "url": "https://www.healthychildren.org/English/health-issues/conditions/fever/Pages/Fever-and-Your-Baby.aspx"
+    },
+    {
+      "source_id": "aap-fever-cpg",
+      "publisher": "American Academy of Pediatrics",
+      "title": "Infant Fever Clinical Practice Guideline (Pediatrics, 2021)",
+      "url": "https://www.aap.org/en/patient-care/infant-fever/"
+    },
+    {
+      "source_id": "mayo-fever",
+      "publisher": "Mayo Clinic",
+      "title": "Fever in babies: When to call the doctor",
+      "url": "https://www.mayoclinic.org/healthy-lifestyle/infant-and-toddler-health/in-depth/healthy-baby/art-20047793"
+    },
+    {
+      "source_id": "aap-safesleep",
+      "publisher": "American Academy of Pediatrics",
+      "title": "Safe Sleep recommendations",
+      "url": "https://www.aap.org/en/patient-care/safe-sleep/"
+    },
+    {
+      "source_id": "cdc-sleep",
+      "publisher": "Centers for Disease Control and Prevention",
+      "title": "Helping Babies Sleep Safely",
+      "url": "https://www.cdc.gov/reproductive-health/features/babies-sleep.html"
+    },
+    {
+      "source_id": "cdc-milestones",
+      "publisher": "Centers for Disease Control and Prevention",
+      "title": "Learn the Signs. Act Early. — Developmental Milestones",
+      "url": "https://www.cdc.gov/act-early/milestones/index.html"
+    },
+    {
+      "source_id": "zubler-2022",
+      "publisher": "Pediatrics / NIH (Zubler et al., 2022)",
+      "title": "Evidence-Informed Milestones for Developmental Surveillance",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9680195/"
+    },
+    {
+      "source_id": "aap-feeding",
+      "publisher": "American Academy of Pediatrics (HealthyChildren.org)",
+      "title": "Infant feeding and nutrition guidance",
+      "url": "https://www.healthychildren.org/English/ages-stages/baby/feeding-nutrition/"
+    },
+    {
+      "source_id": "healthychildren-botulism",
+      "publisher": "American Academy of Pediatrics (HealthyChildren.org)",
+      "title": "Botulism: Causes, Signs, Symptoms and Treatment",
+      "url": "https://www.healthychildren.org/English/health-issues/conditions/infections/Pages/Botulism.aspx"
+    },
+    {
+      "source_id": "healthychildren-carseat",
+      "publisher": "American Academy of Pediatrics (HealthyChildren.org)",
+      "title": "Car Seats: Information for Families",
+      "url": "https://www.healthychildren.org/English/safety-prevention/on-the-go/Pages/Car-Safety-Seats-Information-for-Families.aspx"
+    },
+    {
+      "source_id": "healthychildren-water",
+      "publisher": "American Academy of Pediatrics (HealthyChildren.org)",
+      "title": "Water Safety and Young Children",
+      "url": "https://www.healthychildren.org/English/safety-prevention/at-play/Pages/Water-Safety-And-Young-Children.aspx"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "fever-001",
+      "topic": "fever",
+      "urgent": true,
+      "statement": "A baby 3 months old or younger with a rectal temperature of 100.4F (38C) or higher needs a pediatrician immediately, even if the baby appears well.",
+      "source_id": "healthychildren-fever"
+    },
+    {
+      "claim_id": "fever-002",
+      "topic": "fever",
+      "statement": "Fever in a young infant can be the only sign of a serious infection, because their immune systems are immature.",
+      "source_id": "aap-fever-cpg"
+    },
+    {
+      "claim_id": "fever-003",
+      "topic": "fever",
+      "statement": "Rectal thermometers are the most accurate way to take a young infant's temperature.",
+      "source_id": "healthychildren-fever"
+    },
+    {
+      "claim_id": "fever-004",
+      "topic": "fever",
+      "statement": "For babies 3 to 6 months, call the doctor for fevers up to 102F (38.9C), or at any temperature if the baby seems unusually irritable, lethargic, or unwell.",
+      "source_id": "mayo-fever"
+    },
+    {
+      "claim_id": "fever-005",
+      "topic": "fever",
+      "statement": "For babies over 6 months, call the doctor for fevers above 102F lasting more than a day, or sooner if other concerning symptoms appear.",
+      "source_id": "mayo-fever"
+    },
+    {
+      "claim_id": "fever-006",
+      "topic": "fever",
+      "statement": "How a baby acts matters as much as the number: a feverish baby who drinks, cries normally, and responds to comfort is differently concerning than one who is limp, unresponsive, or cannot be consoled.",
+      "source_id": "healthychildren-fever"
+    },
+    {
+      "claim_id": "sleep-001",
+      "topic": "sleep",
+      "statement": "Babies should be placed on their backs for every sleep, naps included, until 1 year of age. Side sleeping is not safe.",
+      "source_id": "aap-safesleep"
+    },
+    {
+      "claim_id": "sleep-002",
+      "topic": "sleep",
+      "statement": "Babies should sleep in the parents' room but on a separate firm flat surface (crib, bassinet, or play yard), ideally for at least the first 6 months.",
+      "source_id": "aap-safesleep"
+    },
+    {
+      "claim_id": "sleep-003",
+      "topic": "sleep",
+      "statement": "Room sharing without bed sharing can reduce SIDS risk by as much as half.",
+      "source_id": "aap-safesleep"
+    },
+    {
+      "claim_id": "sleep-004",
+      "topic": "sleep",
+      "statement": "The sleep space should be empty of pillows, blankets, bumpers, soft bedding, and toys; babies should never sleep on couches or armchairs.",
+      "source_id": "cdc-sleep"
+    },
+    {
+      "claim_id": "milestone-001",
+      "topic": "milestones",
+      "statement": "By 2 months, most babies begin to smile at people, briefly calm themselves (hands to mouth), coo and make gurgling sounds, and try to look at a parent.",
+      "source_id": "cdc-milestones"
+    },
+    {
+      "claim_id": "milestone-002",
+      "topic": "milestones",
+      "statement": "By 4 months, most babies smile spontaneously to get attention, chuckle, hold their head steady without support, push up on elbows, and take turns making sounds.",
+      "source_id": "cdc-milestones"
+    },
+    {
+      "claim_id": "milestone-003",
+      "topic": "milestones",
+      "statement": "By 6 months, most babies know familiar people, roll from tummy to back, sit with support, and make squealing sounds.",
+      "source_id": "cdc-milestones"
+    },
+    {
+      "claim_id": "milestone-004",
+      "topic": "milestones",
+      "statement": "Milestones describe what most children do by a given age (75% after the 2022 revision); a child not showing one is a reason to ask the pediatrician, not a verdict.",
+      "source_id": "zubler-2022"
+    },
+    {
+      "claim_id": "milestone-005",
+      "topic": "milestones",
+      "statement": "If a child loses skills they previously had at any age, that is a specific sign to talk to a doctor promptly.",
+      "source_id": "cdc-milestones"
+    },
+    {
+      "claim_id": "feeding-001",
+      "topic": "feeding",
+      "statement": "Babies under about 6 months need only breast milk or properly prepared infant formula; no other food or drink is needed.",
+      "source_id": "aap-feeding"
+    },
+    {
+      "claim_id": "feeding-002",
+      "topic": "feeding",
+      "urgent": true,
+      "statement": "Do not give honey to babies under 12 months, not even tiny amounts — honey can carry botulism spores that cause infant botulism.",
+      "source_id": "healthychildren-botulism"
+    },
+    {
+      "claim_id": "feeding-003",
+      "topic": "feeding",
+      "statement": "Solid foods are typically introduced around 6 months, when a baby can hold their head steady and shows interest in food; every baby's pace differs.",
+      "source_id": "aap-feeding"
+    },
+    {
+      "claim_id": "feeding-004",
+      "topic": "feeding",
+      "statement": "New foods can be introduced one at a time over a few days, which makes it easier to notice any reaction.",
+      "source_id": "aap-feeding"
+    },
+    {
+      "claim_id": "safety-001",
+      "topic": "safety",
+      "statement": "Keep small objects, hard round foods, and pieces smaller than a choke-test cylinder away from babies and toddlers; choking hazard is real before age 4.",
+      "source_id": "aap-feeding"
+    },
+    {
+      "claim_id": "safety-002",
+      "topic": "safety",
+      "statement": "All infants ride rear-facing starting with the first ride home from the hospital, and stay rear-facing as long as possible, up to the seat's height and weight limits.",
+      "source_id": "healthychildren-carseat"
+    },
+    {
+      "claim_id": "safety-003",
+      "topic": "safety",
+      "urgent": true,
+      "statement": "Constant, undistracted supervision around water is the rule — most drownings of children 4 and younger happen during non-swim times, when nobody expected the child to be in water.",
+      "source_id": "healthychildren-water"
+    },
+    {
+      "claim_id": "safety-004",
+      "topic": "safety",
+      "statement": "If an infant chokes and cannot breathe or cry, act immediately: back blows and chest thrusts for infants under 1, and learn them from a certified class before you need them.",
+      "source_id": "aap-feeding"
+    },
+    {
+      "claim_id": "attachment-001",
+      "topic": "attachment",
+      "statement": "By 2 months most babies try to look at their parents, briefly calm themselves, and take turns making sounds — early interaction is developmental work, not indulgence.",
+      "source_id": "cdc-milestones"
+    },
+    {
+      "claim_id": "attachment-002",
+      "topic": "attachment",
+      "statement": "Taking turns with sounds and responding to a baby's bids for attention is listed developmental behavior at 2, 4, and 6 months — the back-and-forth itself is the curriculum.",
+      "source_id": "cdc-milestones"
+    },
+    {
+      "claim_id": "attachment-003",
+      "topic": "attachment",
+      "statement": "Babies know familiar people by 6 months; consistent presence is how familiarity is built.",
+      "source_id": "cdc-milestones"
+    }
+  ]
+}

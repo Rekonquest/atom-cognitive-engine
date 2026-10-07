@@ -1,0 +1,11 @@
+[package]
+name = "simple-rag"
+edition.workspace = true
+version.workspace = true
+license.workspace = true
+
+[dependencies]
+atom-cognitive-engine = { path = "../atom-cognitive-engine" }
+
+[lints]
+workspace = true

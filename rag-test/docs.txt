@@ -1,0 +1,26 @@
+Title: Rust ownership basics
+Rust memory safety comes from ownership: every value has one owner, and when the owner goes out of scope the value is dropped. Borrowing with references lets code read data without taking ownership, checked by the borrow checker at compile time.
+---
+Title: Rust borrowing rules
+References in Rust follow two rules: any number of shared references or exactly one mutable reference, and references must always be valid. These rules prevent data races before the program ever runs.
+---
+Title: Cargo workspaces
+A Cargo workspace shares one lockfile and target directory across member crates. Path dependencies link the members, and cargo builds them together with a single command.
+---
+Title: Sourdough starter care
+A sourdough starter is a live culture of flour and water. Feed it equal weights of flour and water daily at room temperature, and it stays active enough to leaven bread.
+---
+Title: Baking sourdough bread
+Sourdough bread needs strong gluten development: stretch and fold the dough every half hour during bulk fermentation, then shape, cold-proof overnight, and bake in a covered pot for a thick crust.
+---
+Title: Why bread crust crackles
+A crisp sourdough crust crackles as it cools because steam escaping from the crumb contracts the crust unevenly. A covered bake traps steam early for oven spring, then dry heat finishes the crust.
+---
+Title: Watering houseplants
+Most houseplants die from overwatering, not neglect. Let the top inch of soil dry out between waterings, and always empty the saucer so roots never sit in water.
+---
+Title: Light for indoor plants
+Bright indirect light suits most tropical houseplants. A plant leaning hard toward the window wants more light, while bleached patches mean the sun is too direct.
+---
+Title: Repotting rootbound plants
+When roots circle the bottom of the pot, move the plant one pot size up with fresh soil. Tease the outer roots loose so they grow outward instead of continuing the circle.
