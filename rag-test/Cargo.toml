@@ -9,7 +9,7 @@ members = [
 [workspace.package]
 edition = "2024"
 version = "0.1.0"
-license = "MIT"
+license = "PolyForm-Noncommercial-1.0.0"
 repository = "https://github.com/Lucerna-Labs/atom-cognitive-engine"
 
 [workspace.lints.rust]

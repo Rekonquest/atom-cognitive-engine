@@ -104,3 +104,7 @@ enforced at load (evidence-not-instruction, read-only), SHA-256 tamper
 detection, urgent flags, and a defer-to-professionals disclaimer (D29–D30).
 Next: the adversarial pressure suite, bond conductance learning, and an
 LLM membrane rendering activations into her voice.
+
+## License
+
+Licensed under the [PolyForm Noncommercial License 1.0.0](LICENSE) (`PolyForm-Noncommercial-1.0.0`). Free for personal use, research, education, charities, public-good nonprofits, and government; commercial use is not permitted. This is source-available software, not OSI open source.
