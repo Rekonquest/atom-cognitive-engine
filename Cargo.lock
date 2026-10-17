@@ -20,3 +20,24 @@ version = "0.1.0"
 dependencies = [
  "atom-cognitive-core",
 ]
+
+[[package]]
+name = "atom-cognitive-rag"
+version = "0.1.0"
+dependencies = [
+ "atom-cognitive-engine",
+ "atom-db",
+]
+
+[[package]]
+name = "atom-db"
+version = "0.1.0"
+source = "git+https://github.com/Lucerna-Labs/atom-db?rev=314a9268c099818197f48a8064abf0e82cc08138#314a9268c099818197f48a8064abf0e82cc08138"
+dependencies = [
+ "atom-retrieval-field",
+]
+
+[[package]]
+name = "atom-retrieval-field"
+version = "0.1.0"
+source = "git+https://github.com/Lucerna-Labs/atom-db?rev=314a9268c099818197f48a8064abf0e82cc08138#314a9268c099818197f48a8064abf0e82cc08138"

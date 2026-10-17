@@ -22,6 +22,7 @@ and ordering laws were written down before the engine code existed
 crates/atom-cognitive-core     roots, stage graph, ordering validation, digest
 crates/atom-cognitive-engine   traces, canonical cycles, engine executor
 crates/atom-cognitive-cli      surface (v0.1: --self-test)
+crates/atom-cognitive-rag      cognitive RAG: AtomDB recall + engine judgment
 docs/                          ROOTS, ORDERING, DECISIONS, research/CANDIDATES
 ```
 
@@ -104,6 +105,18 @@ enforced at load (evidence-not-instruction, read-only), SHA-256 tamper
 detection, urgent flags, and a defer-to-professionals disclaimer (D29–D30).
 Next: the adversarial pressure suite, bond conductance learning, and an
 LLM membrane rendering activations into her voice.
+
+## Cognitive RAG
+
+`crates/atom-cognitive-rag` joins this engine to AtomDB: AtomDB's retrieval
+field shortlists passages from a durable store, and a per-ask engine judges
+them, asserting with citations or abstaining. Feedback is an AtomDB fact
+that both halves learn from. See its [README](crates/atom-cognitive-rag/README.md).
+
+```bash
+cargo run -q -p atom-cognitive-rag -- kb.atoms ingest-jsonl rag-test/atomdb-corpus/corpus.jsonl
+cargo run -q -p atom-cognitive-rag -- kb.atoms ask what are the eight cognitive roots
+```
 
 ## License
 

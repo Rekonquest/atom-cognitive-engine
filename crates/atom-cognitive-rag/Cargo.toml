@@ -1,0 +1,20 @@
+[package]
+name = "atom-cognitive-rag"
+edition.workspace = true
+version.workspace = true
+license.workspace = true
+repository.workspace = true
+description = "Cognitive RAG: AtomDB durable recall + cognitive-engine judgment"
+
+[dependencies]
+atom-cognitive-engine = { path = "../atom-cognitive-engine" }
+# First-party, dependency-free (MIT). Pinned so recall behavior is
+# reproducible; bump deliberately.
+atom-db = { git = "https://github.com/Lucerna-Labs/atom-db", rev = "314a9268c099818197f48a8064abf0e82cc08138" }
+
+[[bin]]
+name = "cognitive-rag"
+path = "src/main.rs"
+
+[lints]
+workspace = true
