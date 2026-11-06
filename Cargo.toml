@@ -4,6 +4,7 @@ members = [
     "crates/atom-cognitive-core",
     "crates/atom-cognitive-engine",
     "crates/atom-cognitive-cli",
+    "crates/atom-cognitive-rag",
 ]
 
 [workspace.package]
